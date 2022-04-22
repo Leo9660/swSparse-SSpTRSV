@@ -200,7 +200,7 @@ int struct_sptrsv_sequential_forward(const TYPE* a, TYPE *x, const TYPE* b, cons
 int main()
 {
     int i, nnz, M, N, L;
-    FILE *fp = fopen("input.struct", "r");
+    FILE *fp = fopen("../input.struct", "r");
     fscanf(fp, "%d%d%d%d", &M, &N, &L, &nnz);
 
     int p[nnz][3];
